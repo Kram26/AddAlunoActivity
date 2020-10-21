@@ -6,13 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
+    <Button
+        android:id="@+id/cadastraAlunoBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="154dp" />
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="94dp"
+        android:text="Salvar"
+        app:layout_constraintBottom_toTopOf="@+id/listaDeAlunosLV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/curriculoEdt" />
+
+    <ListView
+        android:id="@+id/listaDeAlunosLV"
+        android:layout_width="413dp"
+        android:layout_height="741dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="94dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastraAlunoBtn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

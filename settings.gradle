@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "AddAlunoActivity"
+rootProject.name = "AlunosApp"
