@@ -1,4 +1,4 @@
-package br.com.unipac.alunosapp;
+package br.com.unipac.AddAlunoActivity;
 
 import android.os.Bundle;
 import android.view.View;

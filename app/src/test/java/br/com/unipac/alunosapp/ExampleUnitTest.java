@@ -1,4 +1,4 @@
-package br.com.unipac.alunosapp;
+package br.com.unipac.AddAlunoActivity;
 
 import org.junit.Test;
 

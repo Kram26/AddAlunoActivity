@@ -1,4 +1,4 @@
-package br.com.unipac.alunosapp;
+package br.com.unipac.AddAlunoActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
